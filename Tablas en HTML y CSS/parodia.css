@@ -1,0 +1,72 @@
+body{
+    height: 1500px ;
+    background-image: url(https://wallpaperaccess.com/full/1684634.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#Titulo{
+    background-color: rgb(146, 0, 0);
+    border: 5px dashed rgb(27, 2, 2);
+    text-shadow: 3px 5px 5px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0% {
+        text-align: left;
+        
+
+    }
+
+    50% {
+        text-align: center;
+
+    }
+
+    100% {
+        text-align: right;
+    
+
+    }
+}
+#Personal{
+    background-color: gold;
+    border: 5px dashed rgb(45, 83, 160);
+}
+
+.Sesion{
+    background-color: chartreuse;
+    border: 7px solid black;
+}
+#Enviar{
+    background-color: rgb(165, 239, 169);
+    border: 5px dashed rgb(194, 82, 158);
+}
+.Informacion{
+    background-color: rgb(130, 99, 12);
+    border: 7px solid rgb(52, 3, 3);
+}
+#Materia{
+    background-color: rgb(129, 17, 209);
+    border: 5px dashed rgba(64, 221, 218, 0.595);
+}
+.Rango{
+    background-color: rgb(21, 8, 32);
+    border: 7px solid rgb(106, 237, 191);
+}
+#Busqueda{
+    background-color: rgb(25, 82, 163);
+    border: 5px dashed rgb(47, 53, 53);
+}
+footer{
+    background-color: rgb(52, 231, 207);
+    margin: -10px;
+    padding: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+    text-shadow: 3px 5px 5px;
+}
